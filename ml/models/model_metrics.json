@@ -1,0 +1,84 @@
+{
+    "models": [
+        {
+            "name": "Logistic Regression",
+            "accuracy": 0.755,
+            "precision": 0.7383,
+            "recall": 0.6644,
+            "f1": 0.6928,
+            "training_time": 0.5643,
+            "confusion_matrix": [
+                [
+                    50,
+                    14,
+                    25
+                ],
+                [
+                    1,
+                    435,
+                    61
+                ],
+                [
+                    10,
+                    85,
+                    119
+                ]
+            ]
+        },
+        {
+            "name": "Decision Tree",
+            "accuracy": 0.8063,
+            "precision": 0.7385,
+            "recall": 0.7431,
+            "f1": 0.7408,
+            "training_time": 0.0059,
+            "confusion_matrix": [
+                [
+                    58,
+                    7,
+                    24
+                ],
+                [
+                    16,
+                    438,
+                    43
+                ],
+                [
+                    17,
+                    48,
+                    149
+                ]
+            ]
+        },
+        {
+            "name": "Random Forest",
+            "accuracy": 0.8512,
+            "precision": 0.8275,
+            "recall": 0.773,
+            "f1": 0.7957,
+            "training_time": 0.2637,
+            "confusion_matrix": [
+                [
+                    57,
+                    9,
+                    23
+                ],
+                [
+                    2,
+                    465,
+                    30
+                ],
+                [
+                    9,
+                    46,
+                    159
+                ]
+            ]
+        }
+    ],
+    "classes": [
+        "High",
+        "Low",
+        "Normal"
+    ]
+}
